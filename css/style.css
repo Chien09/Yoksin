@@ -12,6 +12,10 @@ body {
   padding: 45px 0;
 }
 
+.layout_padding3{
+  padding: 20px 0;
+}
+
 .layout_padding2-top {
   padding-top: 45px;
 }
@@ -438,6 +442,18 @@ a:focus {
 
 
 /* contact section */
+
+/* product contact section */
+.product-contact_section {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E8E8E8;
+}
+
+/* end product contact section */
 
 /* map section */
 .map_section {
