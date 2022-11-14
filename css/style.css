@@ -78,6 +78,11 @@ body {
   text-align: center;
 }
 
+.custom_heading1 {
+  text-align: center; 
+  color: #c00200;
+  padding: 30px 0;
+}
 
 /*---------------------------------header section--------------------------------------------*/
 .hero_area {
@@ -307,12 +312,7 @@ a:focus {
 /*--------------------------------------end service section--------------------------------------*/
 
 
-
-
-
-
 /* yarn section */
-
 .yarn_section {
   width: 100%;
   height: 500px;
@@ -332,11 +332,9 @@ a:focus {
   color: #ffffff;
   text-transform: uppercase;
 }
-
 /* end yarn section */
 
 /* clients section */
-
 .client_section {
   width: 100%;
   height: 500px;
@@ -348,69 +346,9 @@ a:focus {
   justify-content: center;
   align-items: center;
 }
-
 /* end clients section */
 
-/* client section */
-.client_container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.client_img-box {
-  width: 350px;
-}
-
-.client_img-box img {
-  width: 100%
-}
-
-.client_container h3 {
-  text-align: center;
-  margin-bottom: 25px;
-}
-
-
-.client_section .custom_carousel-control {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  width: 105px;
-  transform: translateX(-50%);
-}
-
-.client_section .custom_carousel-control .carousel-control-prev,
-.client_section .custom_carousel-control .carousel-control-next {
-  width: 45px;
-  height: 45px;
-  border: none;
-  border-radius: 100%;
-  opacity: 1;
-  background-repeat: no-repeat;
-  background-size: 12px;
-  background-position: center;
-  background-color: #292727;
-}
-
-.client_section .custom_carousel-control .carousel-control-prev:hover,
-.client_section .custom_carousel-control .carousel-control-next:hover {
-  background-color: #fc5d35;
-}
-
-.client_section .custom_carousel-control .carousel-control-prev {
-  background-image: url(../images/prev.png);
-}
-
-.client_section .custom_carousel-control .carousel-control-next {
-  background-image: url(../images/next.png);
-}
-
-/* end client section */
-
 /* contact section */
-
 .contact_section {
   background-image: url(../images/shoelace1.png);
   background-repeat: no-repeat;
@@ -439,8 +377,6 @@ a:focus {
   text-transform: uppercase;
   font-size: 14px;
 }
-
-
 /* contact section */
 
 /* product contact section */
@@ -452,8 +388,21 @@ a:focus {
   align-items: center;
   background-color: #E8E8E8;
 }
-
 /* end product contact section */
+
+/* about section image */
+.about-image_section {
+  width: 100%;
+  height: 450px;
+  background-image: url(../images/aboutimage.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* end about section image */
 
 /* map section */
 .map_section {
@@ -506,12 +455,10 @@ a:focus {
   margin-top: 15px;
   font-size: 15px;
 }
-
 /* end info section */
 
 
 /* footer section*/
-
 .footer_section {
   background-color: #E8E8E8;
   padding: 20px 0;
@@ -527,5 +474,4 @@ a:focus {
 .footer_section a {
   color: #191818;
 }
-
 /* end footer section*/
