@@ -407,14 +407,26 @@ a:focus {
 /* map section */
 .map_section {
   width: 100%;
-  height: 500px;
+  height: auto;
+  padding: 20px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #E8E8E8;
 }
-
 /* end map section */
+
+/* YouTube Video section */
+.video_section {
+  width: 100%;
+  height: auto;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E8E8E8;
+}
+/* end YouTube Video section */
 
 /* info section */
 .info_section ul {
