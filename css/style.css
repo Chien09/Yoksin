@@ -72,16 +72,22 @@ body {
 .custom_heading {
   text-align: center;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .custom_heading-text {
   text-align: center;
 }
 
+.custom_p-text {
+  width: 80%;
+  margin: 30px auto;
+}
+
 .custom_heading1 {
   text-align: center; 
   color: #c00200;
-  padding: 30px 0;
+  margin: 30px auto; 
 }
 
 /*---------------------------------header section--------------------------------------------*/
@@ -208,11 +214,12 @@ a:focus {
 
 .slider_item-detail h1 {
   font-weight: 700;
-  font-size: 60px;
+  font-size: 50px;
   width: 95%;
 }
 
 .slider_item-detail p {
+  font-size: large;
   margin: 45px 0;
 }
 
@@ -312,7 +319,7 @@ a:focus {
 /*--------------------------------------end service section--------------------------------------*/
 
 
-/* yarn section */
+/*--------------------------------------yarn section----------------------------------*/
 .yarn_section {
   width: 100%;
   height: 500px;
@@ -332,9 +339,9 @@ a:focus {
   color: #ffffff;
   text-transform: uppercase;
 }
-/* end yarn section */
+/*------------------------------------end yarn section-----------------------------*/
 
-/* clients section */
+/*----------------------------------clients section------------------------------*/
 .client_section {
   width: 100%;
   height: 500px;
@@ -346,9 +353,9 @@ a:focus {
   justify-content: center;
   align-items: center;
 }
-/* end clients section */
+/*----------------------------------end clients section--------------------------*/
 
-/* contact section */
+/*----------------------------------contact section---------------------------*/
 .contact_section {
   background-image: url(../images/shoelace1.png);
   background-repeat: no-repeat;
@@ -377,9 +384,9 @@ a:focus {
   text-transform: uppercase;
   font-size: 14px;
 }
-/* contact section */
+/*------------------------------end contact section------------------------------------*/
 
-/* product contact section */
+/*------------------------------product contact section------------------------------*/
 .product-contact_section {
   width: 100%;
   height: 300px;
@@ -388,9 +395,9 @@ a:focus {
   align-items: center;
   background-color: #E8E8E8;
 }
-/* end product contact section */
+/*-------------------------------end product contact section-----------------------------*/
 
-/* about section image */
+/*----------------------------------about section image-------------------------------*/
 .about-image_section {
   width: 100%;
   height: 450px;
@@ -402,9 +409,21 @@ a:focus {
   justify-content: center;
   align-items: center;
 }
-/* end about section image */
 
-/* map section */
+.machine-image{
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/slide-img2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*----------------------------------end about section image--------------------------------*/
+
+/*------------------------------------map section------------------------------------*/
 .map_section {
   width: 100%;
   height: auto;
@@ -414,9 +433,37 @@ a:focus {
   align-items: center;
   background-color: #E8E8E8;
 }
-/* end map section */
+/*----------------------------------end map section---------------------------------*/
 
-/* YouTube Video section */
+/*------------------------------------mission section------------------------------------*/
+
+.mission-div{
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.mission-p{
+  font-size: larger;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.quotation-img{
+  width: 3%;
+  height: 3%;
+}
+
+.mission-span-left{
+  margin-right: 25px;
+}
+
+.mission-span-right{
+  margin-left: 25px;
+}
+
+/*------------------------------------end mission section------------------------------------*/
+
+/*---------------------------YouTube Video section--------------------------------*/
 .video_section {
   width: 100%;
   height: auto;
@@ -426,9 +473,9 @@ a:focus {
   align-items: center;
   background-color: #E8E8E8;
 }
-/* end YouTube Video section */
+/*-----------------------------end YouTube Video section-------------------------------*/
 
-/* info section */
+/*------------------------------info section------------------------------*/
 .info_section ul {
   padding: 0;
 }
@@ -467,10 +514,10 @@ a:focus {
   margin-top: 15px;
   font-size: 15px;
 }
-/* end info section */
+/*----------------------------------end info section----------------------------------*/
 
 
-/* footer section*/
+/*---------------------------------------footer section------------------------------------------*/
 .footer_section {
   background-color: #E8E8E8;
   padding: 20px 0;
@@ -486,4 +533,4 @@ a:focus {
 .footer_section a {
   color: #191818;
 }
-/* end footer section*/
+/*----------------------------------------end footer section----------------------------------------*/
