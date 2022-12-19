@@ -88,11 +88,10 @@
         <h2 class="custom_heading1">Mission</h2>
         <p class="custom_heading-text mission-p">
           <span class="mission-span-left"><img src="images/quotation1.png" class="quotation-img"></span>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           <span class="mission-span-right"><img src="images/quotation2.png" class="quotation-img"></span>
         </p>
       </div>
-
       <!--end Mission/Vision -->
 
       <div class="about-image_section">
@@ -104,9 +103,44 @@
         During the past 30 years we have conducted various company restructuring, by adding more new machineries, increase technical standards and capacity, as well expanding our product range. Our clients includes Nike, Addidas, K-Swiss, Lacoste, various footwear, clothing, bags, underwear & lingerie manufacturers, as well as car parts accessories(seat belts, net pockets etc) and other manufacturers. 
       </p>
 
-      <div class="machine-image">
-        <!--image-->
+      <!--Slideshow-->
+      <div class="slideshow-container">
+        <div class="slideshow-img img-fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="images/slideshow-img1.png" style="width:100%">
+          <div class="slideshow-text">Caption Text</div>
+        </div>
+
+        <div class="slideshow-img img-fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="images/slideshow-img2.png" style="width:100%">
+          <div class="slideshow-text">Caption Text</div>
+        </div>
+
+        <div class="slideshow-img img-fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="images/slideshow-img3.png" style="width:100%">
+          <div class="slideshow-text">Caption Text</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="slideshow-prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="slideshow-next" onclick="plusSlides(1)">&#10095;</a>
       </div>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="slideshow-dot" onclick="currentSlide(1)"></span> 
+        <span class="slideshow-dot" onclick="currentSlide(2)"></span> 
+        <span class="slideshow-dot" onclick="currentSlide(3)"></span> 
+      </div>
+
+      <!--Slideshow end-->
+
+      <p class="custom_heading-text custom_p-text">
+        We have different types of machines available including knitting yarn into fabric such as shoelace, elastic, and so on. We also have machines for color dyeing and logo printing on fabrics. Our machines can produce from 1/50 to 100 knits if need to website. 
+      </p>
+
     </div>
   </section>
 
@@ -201,8 +235,10 @@
   </section>
   <!-- footer section -->
 
+  <!--Include scripts JS-->
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/slideshow.js"></script>
 
 </body>
 
