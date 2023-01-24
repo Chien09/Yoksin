@@ -195,8 +195,8 @@ a:focus {
 }
 
 .slider_img-box {
-  width: 85%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 50px auto 0;
 }
 
 .slider_img-box img {
@@ -214,13 +214,13 @@ a:focus {
 
 .slider_item-detail h1 {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
   width: 95%;
 }
 
 .slider_item-detail p {
   font-size: large;
-  margin: 45px 0;
+  margin: 40px 0;
 }
 
 .slider_call-btn {
@@ -276,6 +276,7 @@ a:focus {
 /*--------------------------------------service section--------------------------------------*/
 .service_section .card .card-img-top {
   width: 250px;
+  height: 280px;
   margin: 55px auto 5px auto;
 }
 
