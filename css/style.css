@@ -398,7 +398,7 @@ a:focus {
 }
 /*-------------------------------end product contact section-----------------------------*/
 
-/*----------------------------------about section image-------------------------------*/
+/*----------------------------------about section-------------------------------*/
 .about-image_section {
   width: 100%;
   height: 450px;
@@ -411,7 +411,36 @@ a:focus {
   align-items: center;
 }
 
-/*----------------------------------end about section image--------------------------------*/
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 20px;
+}
+
+.team-div{
+  width: 80%;
+  height: 150%;
+  text-align: left;  
+  margin: 60px auto;
+  background-color: lightblue;
+}
+
+.team-div img{
+  width: 20rem;
+  float: right;
+  margin: 20px 20px;
+}
+
+.team-div h3{
+  color: #c00200;
+}
+
+.team-div p{
+
+}
+
+/*----------------------------------end about section--------------------------------*/
 
 /*------------------------------------map section------------------------------------*/
 .map_section {
@@ -427,20 +456,39 @@ a:focus {
 
 /*------------------------------------mission section------------------------------------*/
 
-.mission-div{
-  margin-top: 80px;
-  margin-bottom: 50px;
+.vision-div{
+  border: 1px solid lightgrey;
+  border-radius: 5%;
+  padding: 40px;
+
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
-.mission-p{
-  font-size: larger;
+.mission-div{
+  background-color: #E8E8E8;
+  padding: 40px;
+  border-radius: 5%;
+
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.vision-p{
+  font-size: large;
   font-weight: 500;
   font-style: italic;
 }
 
+.mission-p{
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+}
+
 .quotation-img{
-  width: 3%;
-  height: 3%;
+  width: 5%;
+  height: 5%;
 }
 
 .mission-span-left{
