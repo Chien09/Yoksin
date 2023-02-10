@@ -330,7 +330,6 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .yarn_section h2 {
@@ -414,30 +413,32 @@ a:focus {
 .grid-container{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 15px;
-  row-gap: 20px;
+  row-gap: 50px;
+}
+
+.team_section {
+  width: 100%;
+  height: 450px;
+  background-image: url(../images/teamwork.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  position: relative;
 }
 
 .team-div{
-  width: 80%;
-  height: 150%;
-  text-align: left;  
-  margin: 60px auto;
-  background-color: lightblue;
-}
-
-.team-div img{
-  width: 20rem;
+  width: 40%;
+  height: auto;
   float: right;
-  margin: 20px 20px;
+  margin-top: 60px;
+  margin-right: 40px;
+  margin-bottom: 10px;
 }
 
-.team-div h3{
+.team_section h3{
   color: #c00200;
-}
-
-.team-div p{
-
 }
 
 /*----------------------------------end about section--------------------------------*/
@@ -455,6 +456,10 @@ a:focus {
 /*----------------------------------end map section---------------------------------*/
 
 /*------------------------------------mission section------------------------------------*/
+
+.mission-vision-section{
+  margin: 80px 80px;
+}
 
 .vision-div{
   border: 1px solid lightgrey;
@@ -521,9 +526,8 @@ a:focus {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 50px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -550,8 +554,9 @@ a:focus {
 }
 
 .numbertext {
-  color: #f2f2f2;
-  font-size: 20px;
+  color: #030101;
+  font-weight: 600;
+  font-size: 30px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
@@ -587,7 +592,27 @@ a:focus {
 
 /*----------------------------------end Slideshow container----------------------------*/
 
-/*---------------------------YouTube Video section--------------------------------*/
+/*---------------------------Video section--------------------------------*/
+.machine-videos-div{
+  margin: auto;
+  text-align: center;
+}
+
+.machine1-video{
+  width: 600px;
+  height: 400px;
+  background-color: black;
+  margin-top: 20px;
+}
+
+.machine2-video{
+  width: 300px;
+  height: 400px;
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 .video_section {
   width: 100%;
   height: auto;
