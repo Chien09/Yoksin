@@ -273,7 +273,7 @@ a:focus {
 /*--------------------------------------end slider section------------------------------------*/
 
 
-/*--------------------------------------service section--------------------------------------*/
+/*--------------------------------------service/product section--------------------------------------*/
 .service_section .card .card-img-top {
   width: 250px;
   height: 280px;
@@ -306,7 +306,6 @@ a:focus {
   -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-
 }
 
 .service_section .card:hover::after {
@@ -317,7 +316,26 @@ a:focus {
   padding-bottom: 40px;
 }
 
-/*--------------------------------------end service section--------------------------------------*/
+.production-capacity{
+  width: 100%;
+  margin: 4.25rem auto 4.25rem auto;
+  background-color: blue;
+  text-align: left;  
+}
+
+.production-image{
+  height: 20rem;
+  width: 20rem;
+  margin-right: 0.625rem;
+  border-radius: 2%;
+  float: left;
+}
+
+.waste-water-treatment{
+  margin: 4.25rem auto 4.25rem auto;
+}
+
+/*--------------------------------------end service/product section--------------------------------------*/
 
 
 /*--------------------------------------yarn section----------------------------------*/
